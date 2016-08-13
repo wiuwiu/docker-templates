@@ -3,8 +3,8 @@
   <Name>mFi</Name>
   <Project>https://community.ubnt.com/</Project>
   <Description>The mFi is a Machine-to-Machine Communications Platform ideal for home automation solutions.</Description>
-  <Registry>https://hub.docker.com/r/wiuwiu/mfi/</Registry>
-  <Repository>wiuwiu/mfi</Repository>
+  <Registry>https://hub.docker.com/r/wiuwiu/docker-mfi/</Registry>
+  <Repository>wiuwiu/docker-mfi</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Beta>False</Beta>
