@@ -75,6 +75,6 @@
   <Version></Version>
   <WebUI>https://[IP]:[PORT:6443]</WebUI>
   <Banner>https://github.com/wiuwiu/docker-templates/blob/master/wiuwiu-repo/img/mfi-banner.png</Banner>
-  <Icon>https://github.com/wiuwiu/docker-templates/blob/master/wiuwiu-repo/img/mfi-icon.png</Icon>
+  <Icon>https://raw.githubusercontent.com/wiuwiu/docker-templates/master/wiuwiu-repo/img/mfi-icon.png</Icon>
   <ExtraParams></ExtraParams>
 </Container>
