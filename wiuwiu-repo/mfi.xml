@@ -69,7 +69,7 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/config</HostDir>
+      <HostDir></HostDir>
       <ContainerDir>/mFi/data</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
