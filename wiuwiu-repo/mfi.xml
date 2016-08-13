@@ -69,8 +69,8 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir></HostDir>
-      <ContainerDir>[/mFi/data]</ContainerDir>
+      <HostDir>/mnt/user/appdata/mFi</HostDir>
+      <ContainerDir>/mFi/data</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
