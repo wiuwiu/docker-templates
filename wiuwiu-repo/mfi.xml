@@ -10,16 +10,7 @@
   <Beta>False</Beta>
   <Category>Network:Automation Tools:</Category>
   <Date>2016-08-13</Date>
-  <Environment>
-    <Variable>
-      <Name>PUID</Name>
-      <Value>101</Value>
-    </Variable>
-    <Variable>
-      <Name>PGID</Name>
-      <Value>102</Value>
-    </Variable>
-  </Environment>
+  <Environment/>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
