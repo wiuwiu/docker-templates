@@ -68,7 +68,7 @@
   <Data>
     <Volume>
       <HostDir></HostDir>
-      <ContainerDir>/config</ContainerDir>
+      <ContainerDir>/mFi/data</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
