@@ -15,7 +15,7 @@
   <Environment>
     <Variable>
       <Name>PUID</Name>
-      <Value>99</Value>
+      <Value>1002</Value>
     </Variable>
     <Variable>
       <Name>PGID</Name>
@@ -70,7 +70,7 @@
   <Data>
     <Volume>
       <HostDir></HostDir>
-      <ContainerDir>/config</ContainerDir>
+      <ContainerDir>/mFi/data</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
