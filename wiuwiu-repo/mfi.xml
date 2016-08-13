@@ -10,7 +10,18 @@
   <Beta>False</Beta>
   <Category>Home Automation:Management Tools:</Category>
   <Date>2016-08-13</Date>
-  <Environment/>
+  <Changes>[center][font size=4]mFi change log[/font][/center]
+13.08.16: Initial release</Changes>
+  <Environment>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+    </Variable>
+  </Environment>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
