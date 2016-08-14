@@ -73,6 +73,11 @@
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/mFi/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
   </Data>
   <Version></Version>
   <WebUI>https://[IP]:[PORT:6443]</WebUI>
