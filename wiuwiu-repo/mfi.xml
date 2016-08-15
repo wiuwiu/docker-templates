@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-  <Name>mFi</Name>
+  <Name>mfi</Name>
   <Project>https://community.ubnt.com/</Project>
   <Description>The mFi is a Machine-to-Machine Communications Platform ideal for home automation solutions.</Description>
   <Registry>https://hub.docker.com/r/wiuwiu/docker-mfi/</Registry>
