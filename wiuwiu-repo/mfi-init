@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>mfi-init</Name>
+  <Project>https://community.ubnt.com/</Project>
+  <Description>The mFi is a Machine-to-Machine Communications Platform ideal for home automation solutions.</Description>
+  <Registry>https://hub.docker.com/r/wiuwiu/docker-mfi/</Registry>
+  <Repository>wiuwiu/docker-mfi</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Beta>False</Beta>
+  <Category>Home Automation:Management Tools:</Category>
+  <Date>2016-08-13</Date>
+  <Changes>[center][font size=4]mFi change log[/font][/center]
+13.08.16: Initial release</Changes>
+  <Environment>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>1002</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>2323</HostPort>
+        <ContainerPort>2323</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>6080</HostPort>
+        <ContainerPort>6080</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>6443</HostPort>
+        <ContainerPort>6443</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>6843</HostPort>
+        <ContainerPort>6843</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>6880</HostPort>
+        <ContainerPort>6880</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+	  <Port>
+        <HostPort>1900</HostPort>
+        <ContainerPort>1900</ContainerPort>
+        <Protocol>udp</Protocol>
+      </Port>
+	  <Port>
+        <HostPort>3478</HostPort>
+        <ContainerPort>3478</ContainerPort>
+        <Protocol>udp</Protocol>
+      </Port>
+	  <Port>
+        <HostPort>10001</HostPort>
+        <ContainerPort>10001</ContainerPort>
+        <Protocol>udp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version></Version>
+  <WebUI>https://[IP]:[PORT:6443]</WebUI>
+  <Banner>https://github.com/wiuwiu/docker-templates/blob/master/wiuwiu-repo/img/mfi-banner.png</Banner>
+  <Icon>https://raw.githubusercontent.com/wiuwiu/docker-templates/master/wiuwiu-repo/img/mfi-icon.png</Icon>
+  <ExtraParams></ExtraParams>
+</Container>
