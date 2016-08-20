@@ -61,8 +61,8 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir></HostDir>
-      <ContainerDir>/config</ContainerDir>
+      <HostDir>/mnt/user/apps/mfi</HostDir>
+      <ContainerDir>/mFi/data</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
