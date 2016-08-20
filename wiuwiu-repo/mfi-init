@@ -3,24 +3,16 @@
   <Name>mfi-init</Name>
   <Project>https://community.ubnt.com/</Project>
   <Description>The mFi is a Machine-to-Machine Communications Platform ideal for home automation solutions.</Description>
-  <Registry>https://hub.docker.com/r/wiuwiu/docker-mfi/</Registry>
-  <Repository>wiuwiu/docker-mfi</Repository>
+  <Registry>https://hub.docker.com/r/wiuwiu/docker-mfi-init/</Registry>
+  <Repository>wiuwiu/docker-mfi-init</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Beta>False</Beta>
   <Category>Home Automation:Management Tools:</Category>
-  <Date>2016-08-13</Date>
+  <Date>2016-08-20</Date>
   <Changes>[center][font size=4]mFi change log[/font][/center]
-13.08.16: Initial release</Changes>
+13.08.20: Initial release</Changes>
   <Environment>
-    <Variable>
-      <Name>PUID</Name>
-      <Value>1002</Value>
-    </Variable>
-    <Variable>
-      <Name>PGID</Name>
-      <Value>100</Value>
-    </Variable>
   </Environment>
   <Networking>
     <Mode>bridge</Mode>
