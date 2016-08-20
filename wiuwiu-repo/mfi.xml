@@ -68,6 +68,11 @@
     </Publish>
   </Networking>
   <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
   </Data>
   <Version></Version>
   <WebUI>https://[IP]:[PORT:6443]</WebUI>
