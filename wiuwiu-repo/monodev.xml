@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>monodev</Name>
   <Repository>wiuwiu/docker-monodev</Repository>
-  <Registry>https://hub.docker.com/r/_/mono/</Registry>
+  <Registry>https://hub.docker.com/r/wiuwiu/docker-monodev/</Registry>
   <Network>none</Network>
   <Privileged>false</Privileged>
   <Support/>
