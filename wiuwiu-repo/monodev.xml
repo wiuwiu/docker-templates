@@ -1,36 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Container version="2">
-  <Name>monodev</Name>
-  <Repository>wiuwiu/docker-monodev</Repository>
-  <Registry>https://hub.docker.com/r/wiuwiu/docker-monodev/</Registry>
-  <Network>none</Network>
-  <Privileged>false</Privileged>
-  <Support/>
-  <Overview />
-  <Category>Private:</Category>
-  <WebUI/>
-  <TemplateURL/>
-  <Icon/>
-  <ExtraParams/>
-  <DateInstalled>1493296650</DateInstalled>
-  <Description/>
-  <Networking>
-    <Mode>none</Mode>
-    <Publish/>
-  </Networking>
-  <Data>
-    <Volume>
-      <HostDir>/mnt/user/appdata/monodev</HostDir>
-      <ContainerDir>/data</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/user</HostDir>
-      <ContainerDir>/unraid</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-  </Data>
-  <Environment/>
-  <Config Name="Host Path" Target="/data" Default="/mnt/cache/appdata/monodev/" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/monodev</Config>
-  <Config Name="unRAID Share Path" Target="/unraid" Default="/mnt/user" Mode="rw" Description="" Type="Path" Display="hidden" Required="false" Mask="false">/mnt/user</Config>
+<Container>
+	<Beta>False</Beta>
+	<Category>Network:Other</Category>
+	<Date>2017-04-27</Date>
+	<Changes/>
+	<Name>monodev</Name>
+	<Support/>
+	<Description/>
+	<Overview/>
+	<Project/>
+	<Registry>https://hub.docker.com/r/wiuwiu/docker-monodev/</Registry>
+	<Repository>wiuwiu/docker-monodev</Repository>
+	<BindTime>true</BindTime>
+	<Privileged>false</Privileged>
+	<Environment>
+		<Variable>
+			<Name>PUID</Name>
+			<Value>99</Value>
+		</Variable>
+		Variable>
+			<Name>PGID</Name>
+			<Value>100</Value>
+		</Variable>
+	</Environment>
+	<Networking>
+		<Mode>none</Mode>
+		<Publish/>
+	</Networking>
+	<Data>
+		<Volume>
+			<HostDir>/mnt/user/appdata/monodev</HostDir>
+			<ContainerDir>/data</ContainerDir>
+			<Mode>rw</Mode>
+		</Volume>
+	</Data>
+	<WebUI/>
+	<Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mariadb-banner.png</Banner>
+	<Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mariadb-icon.png</Icon>
+	<BaseImage>mono/latest</BaseImage>
 </Container>
