@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>monodev</Name>
+  <Repository>mono</Repository>
+  <Registry>https://hub.docker.com/r/_/mono/</Registry>
+  <Network>none</Network>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Overview>DUPA ZBITA</Overview>
+  <Category>Private:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <DateInstalled>1493296650</DateInstalled>
+  <Description>DUPA ZBITA</Description>
+  <Networking>
+    <Mode>none</Mode>
+    <Publish/>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/mono</HostDir>
+      <ContainerDir>/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user</HostDir>
+      <ContainerDir>/unraid</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment/>
+  <Config Name="Host Path" Target="/data" Default="/mnt/cache/appdata/mono/" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/mono</Config>
+  <Config Name="unRAID Share Path" Target="/unraid" Default="/mnt/user" Mode="rw" Description="" Type="Path" Display="hidden" Required="false" Mask="false">/mnt/user</Config>
+</Container>
