@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Container version="2">
   <Name>monodev</Name>
   <Repository>mono</Repository>
@@ -6,21 +6,21 @@
   <Network>none</Network>
   <Privileged>false</Privileged>
   <Support/>
-  <Overview>DUPA ZBITA</Overview>
+  <Overview />
   <Category>Private:</Category>
   <WebUI/>
   <TemplateURL/>
   <Icon/>
   <ExtraParams/>
   <DateInstalled>1493296650</DateInstalled>
-  <Description>DUPA ZBITA</Description>
+  <Description/>
   <Networking>
     <Mode>none</Mode>
     <Publish/>
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/appdata/mono</HostDir>
+      <HostDir>/mnt/user/appdata/monodev</HostDir>
       <ContainerDir>/data</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
@@ -31,6 +31,6 @@
     </Volume>
   </Data>
   <Environment/>
-  <Config Name="Host Path" Target="/data" Default="/mnt/cache/appdata/mono/" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/mono</Config>
+  <Config Name="Host Path" Target="/data" Default="/mnt/cache/appdata/monodev/" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/monodev</Config>
   <Config Name="unRAID Share Path" Target="/unraid" Default="/mnt/user" Mode="rw" Description="" Type="Path" Display="hidden" Required="false" Mask="false">/mnt/user</Config>
 </Container>
