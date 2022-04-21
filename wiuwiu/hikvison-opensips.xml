@@ -2,7 +2,6 @@
 <Container version="2">
   <Name>hikvison-opensips</Name>
   <Repository>wiuwiu/hikvison-opensips</Repository>
-  <GitHub>https://github.com/wiuwiu/hikvison-opensips</GitHub>
   <Registry>https://registry.hub.docker.com/u/wiuwiu/hikvison-opensips/</Registry>
   <Network>bridge</Network>
   <MyIP/>
