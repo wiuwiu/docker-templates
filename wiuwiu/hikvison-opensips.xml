@@ -27,12 +27,12 @@
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort>8151</HostPort>
+        <HostPort>5051</HostPort>
         <ContainerPort>5051</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
       <Port>
-        <HostPort>8160</HostPort>
+        <HostPort>5060</HostPort>
         <ContainerPort>5060</ContainerPort>
         <Protocol>udp</Protocol>
       </Port>
@@ -41,6 +41,6 @@
   <Data/>
   <Environment/>
   <Labels/>
-  <Config Name="WebUI Port" Target="5051" Default="" Mode="tcp" Description="Container Port: 5051" Type="Port" Display="always" Required="true" Mask="false">8151</Config>
-  <Config Name="Other Port" Target="5060" Default="" Mode="udp" Description="Container Port: 5060" Type="Port" Display="always" Required="true" Mask="false">8160</Config>
+  <Config Name="WebUI Port" Target="5051" Default="" Mode="tcp" Description="Container Port: 5051" Type="Port" Display="always" Required="true" Mask="false">5051</Config>
+  <Config Name="Other Port" Target="5060" Default="" Mode="udp" Description="Container Port: 5060" Type="Port" Display="always" Required="true" Mask="false">5060</Config>
 </Container>
