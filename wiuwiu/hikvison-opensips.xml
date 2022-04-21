@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>hikvison-opensips</Name>
+  <Repository>wiuwiu/hikvison-opensips</Repository>
+  <Registry>https://registry.hub.docker.com/u/wiuwiu/hikvison-opensips/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://www.opensips.org/</Project>
+  <Overview>
+    OpenSIPS is an Open Source SIP proxy/server for voice, video, IM, presence and any other SIP extensions. 
+  </Overview>
+  <Category>Network:Management</Category>
+  <WebUI>http://[IP]:[PORT:8151]/cp</WebUI>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams>--add-host core-mariadb:172.17.0.6</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled/>
+  <DonateText/>
+  <DonateLink/>
+  <Description/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8151</HostPort>
+        <ContainerPort>5051</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>8160</HostPort>
+        <ContainerPort>5060</ContainerPort>
+        <Protocol>udp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data/>
+  <Environment/>
+  <Labels/>
+  <Config Name="WebUI Port" Target="5051" Default="" Mode="tcp" Description="Container Port: 5051" Type="Port" Display="always" Required="true" Mask="false">8151</Config>
+  <Config Name="Other Port" Target="5060" Default="" Mode="udp" Description="Container Port: 5060" Type="Port" Display="always" Required="true" Mask="false">8160</Config>
+</Container>
