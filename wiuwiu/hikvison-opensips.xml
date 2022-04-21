@@ -15,7 +15,7 @@
   <Category>Network:Management</Category>
   <WebUI>http://[IP]:[PORT:8151]/cp</WebUI>
   <TemplateURL/>
-  <Icon/>
+  <Icon>https://raw.githubusercontent.com/wiuwiu/docker-templates/master/images/opensips.png</Icon>
   <ExtraParams>--add-host core-mariadb:172.17.0.6</ExtraParams>
   <PostArgs/>
   <CPUset/>
