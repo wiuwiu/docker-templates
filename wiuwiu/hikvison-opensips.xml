@@ -24,7 +24,7 @@
   <DonateLink/>
   <Description/>
   <Networking>
-    <Mode>bridge</Mode>
+    <Mode>host</Mode>
     <Publish>
       <Port>
         <HostPort>5051</HostPort>
@@ -34,7 +34,12 @@
       <Port>
         <HostPort>5060</HostPort>
         <ContainerPort>5060</ContainerPort>
-        <Protocol>tcp_udp</Protocol>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>5060</HostPort>
+        <ContainerPort>5060</ContainerPort>
+        <Protocol>udp</Protocol>
       </Port>
     </Publish>
   </Networking>
@@ -42,5 +47,6 @@
   <Environment/>
   <Labels/>
   <Config Name="WebUI Port" Target="5051" Default="" Mode="tcp" Description="Container Port: 5051" Type="Port" Display="always" Required="true" Mask="false">5051</Config>
-  <Config Name="SIP Port" Target="5060" Default="" Mode="tcp_udp" Description="Container Port: 5060" Type="Port" Display="always" Required="true" Mask="false">5060</Config>
+  <Config Name="SIP TCP Port" Target="5060" Default="" Mode="tcp" Description="Container Port: 5060" Type="Port" Display="always" Required="true" Mask="false">5060</Config>
+  <Config Name="SIP UDP Port" Target="5060" Default="" Mode="udp" Description="Container Port: 5060" Type="Port" Display="always" Required="true" Mask="false">5060</Config>
 </Container>
