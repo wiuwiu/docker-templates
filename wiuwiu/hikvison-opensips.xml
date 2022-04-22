@@ -34,7 +34,7 @@
       <Port>
         <HostPort>5060</HostPort>
         <ContainerPort>5060</ContainerPort>
-        <Protocol>udp</Protocol>
+        <Protocol>tcp_udp</Protocol>
       </Port>
     </Publish>
   </Networking>
@@ -42,5 +42,5 @@
   <Environment/>
   <Labels/>
   <Config Name="WebUI Port" Target="5051" Default="" Mode="tcp" Description="Container Port: 5051" Type="Port" Display="always" Required="true" Mask="false">5051</Config>
-  <Config Name="SIP Port" Target="5060" Default="" Mode="udp" Description="Container Port: 5060" Type="Port" Display="always" Required="true" Mask="false">5060</Config>
+  <Config Name="SIP Port" Target="5060" Default="" Mode="tcp_udp" Description="Container Port: 5060" Type="Port" Display="always" Required="true" Mask="false">5060</Config>
 </Container>
