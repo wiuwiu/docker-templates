@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>repetier-server</Name>
+  <Repository>wiuwiu/repetier-server</Repository>
+  <Registry>https://registry.hub.docker.com/u/wiuwiu/repetier-server/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://www.repetier-server.com/</Project>
+  <Overview>Repetier server:&#xD;
+&#xD;
+Connect the 3D printer to the server.&#xD;
+Control the 3D printer (s) via an interface.&#xD;
+Upload files and print directly&#xD;
+Connect the webcam and view it while you are on the move.&#xD;
+Start a new print.&#xD;
+Update firmware from printer</Overview>
+  <Category>HomeAutomation: Tools:Utilities MediaServer:Other Network:Web</Category>
+  <WebUI>http://[IP]:[PORT:3344]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/wiuwiu/docker-templates/master/images/repetier-server.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1668277980</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="WebUI Port" Target="3344" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">3344</Config>
+  <Config Name="Appdata Config Path" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/repetier-server/</Config>
+  <Config Name="Printer Device" Target="" Default="" Mode="" Description="" Type="Device" Display="always" Required="false" Mask="false">/dev/ttyUSB0</Config>
+</Container>
